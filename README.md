@@ -18,6 +18,8 @@ The code from the projects will be used as both training set and test set, the s
 
 ## The Projects
 
+<div style="column-count: 2;">
+
 - Apache Flink
 - Apache Hadoop 
 - Apache Kafka
@@ -54,3 +56,4 @@ The code from the projects will be used as both training set and test set, the s
 - Microsoft Authentication Library in Java
 - Springboot Framework
 
+</div>
