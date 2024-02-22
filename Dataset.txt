@@ -1,0 +1,54 @@
+====================================================================================
+Objective --> Java-based Open Source projects
+====================================================================================
+Sources:
+
+1) GitHub
+2) GitHub Gists
+3) Stack Overflow
+====================================================================================
+Goal:
+
+Fine-tune a masked language model for a given task, regarding automatic
+code generation (for tests? if so use the Defects4J)
+====================================================================================
+
+				Opensource Projects
+
+====================================================================================
+1) Apache Flink
+2) Apache Hadoop
+3) Apache Zookeeper
+4) Apache Kafka
+5) Apache Tomcat
+6) Apache Storm
+7) Apache Hive
+8) Apache Hbase
+9) Apache Nifi
+10) Apache Shiro
+11) Apache Calcite
+12) Apache Iceberg
+13) Apache Ignite
+14) Apache Kylin
+15) Apache Maven
+16) Apache Cassandra
+17) Apache Curator
+18) Apache Parquet
+19) Apache IOTDB
+20) Apache CXF
+21) Apache Netbeans
+22) Apache Atlas
+23) Apache Flume
+24) Apache Dubbo
+25) Apache ActiveMQ
+26) Apache Jena
+27) Apache Pulsar
+28) Apache OpenNLP
+29) Apache TomEE
+30) Apache Accumulo
+31) Google Guava
+32) Google Oauth-Java-Client
+33) IBM Watson Java-SDK
+34) Facebook Buisness SDK
+35) Microsoft Authentication Library in Java
+36) Springboot Framework
