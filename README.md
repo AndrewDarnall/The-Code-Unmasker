@@ -1,2 +1,6 @@
 # Distributed-Systems-Engineering-Project
-This is the repository for the project of the Distributed Systems Engineering (Ingegneria dei Sistemi Distribuiti) of the master's degree in Computer Science, the project is focused on the use of Masked Language Models, specifically CodeBERT, and has a collection of notebooks and code
+
+
+### Temporary Description
+
+The goal of the project is to experiment and fine-tune the CodeBERT Masked Language Model, to then deploy it to a simple microservice-based web application written using the SpringBoot framework
