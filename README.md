@@ -1,59 +1,23 @@
-# Distributed-Systems-Engineering-Project
+# The Code Unmasker
 
+Large Language Models (LLMs) have made a significant impact on the technology industry, fundamentally transforming the landscape. However, this technology is not yet positioned to replace software engineers. Instead, it can serve as a powerful tool to assist engineers in various tasks, enhancing their daily workflows.
 
-### Temporary Description
+A notable example of such LLMs is Masked Language Models (MLMs), with `CodeBERT` being one prominent instance. Fine-tuned on a diverse dataset of programming languages, CodeBERT is capable of predicting masked tokens in a given text prompt, although its accuracy may vary depending on the input.
 
-The goal of the project is to experiment and fine-tune the CodeBERT Masked Language Model, to then deploy it to a simple microservice-based web application written using the SpringBoot framework
+This project deploys a simple masked language model as a microservice. It operates alongside another microservice, which accepts code input from a client, processes it, and transmits it to the MLM microservice via a message queue system, specifically `RabbitMQ`.
 
-## The Data
+-----
 
-To fine-tune the CodeBERT MLM I used 36 opensource java-based projects, the choice of the projects was not random for a model which needs to succesfully predict a mask in a code must be trained on 'high quality' code, i.e. that written by hihghly experienced software engineers from either FAANG companies or from the Apache Software Foundation.
-The code from the projects will be used as both training set and test set, the specifics of which projects are used as what are in the experiment's notebooks
+## Requirements
 
+| Component     |    Version |
+|---------------|------------|
+| Docker        | `20.10.5`  |
 
+-----
 
-## The Sources
+## Project Structure
 
-- GitHub
+-----
 
-## The Projects
-
-<div style="column-count: 2;">
-
-- Apache Flink
-- Apache Hadoop 
-- Apache Kafka
-- Apache Tomcat
-- Apache Storm
-- Apache Hive
-- Apache Hbase
-- Apache Nifi
-- Apache Shiro
-- Apache Calcite
-- Apache Iceberg
-- Apache Ignite
-- Apache Kylin
-- Apache Maven
-- Apache Cassandra
-- Apache Curator
-- Apache Parquet
-- Apache IOTDB
-- Apache CXF
-- Apache Netbeans
-- Apache Atlas
-- Apache Flume
-- Apache Dubbo
-- Apache ActiveMQ
-- Apache Jena
-- Apache Pulsar
-- Apache OpenNLP
-- Apache TomEE
-- Apache Accumulo
-- Google Guava
-- Google Oauth-Java-Client
-- IBM Watson Java-SDK
-- Facebook Buisness SDK
-- Microsoft Authentication Library in Java
-- Springboot Framework
-
-</div>
+## Usage
